@@ -1,7 +1,7 @@
 <template>
     <div class="greetings">
       <h1 class="green">Shopping Mall</h1>
-      <h2 class="cart"  v-if="cart.length>0" @click="showcart=true">Items Added to cart({{ cart.length }})</h2>
+      <h2 class="cart"  v-if="cart.length>0" @click="showcart=true">Click Here to View Items Added to cart({{ cart.length }})</h2>
       <div class="searchcontainer">
             <div class="search">
                 <input type="text" placeholder="Search Products" @input="seachProdcut" v-model="searchItem"/>
